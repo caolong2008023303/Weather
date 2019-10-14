@@ -2,11 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Spring Boot Hello World Example with FreeMarker</title>
-    <link href="/css/main.css" rel="stylesheet">
+    <title>City</title>
 </head>
 <body>
-    <h2 class="hello-title">Spring Boot Hello World Example with FreeMarker</h2>
-    <script src="/js/main.js"></script>
+    <h2>Please select a city to get the current weather</h2>
+    <select name="city" id="city" style="width:120px;" value="">
+		<option value="">--Please select--</option>
+		<#list cities as city>
+			<option value="${city}">${city}</option>
+		</#list>
+	</select>
 </body>
 </html>
