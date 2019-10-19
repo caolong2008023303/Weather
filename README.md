@@ -15,8 +15,10 @@
 - Java
 
 ## Run
-`mvn clean spring-boot:run`
+- `mvn clean spring-boot:run`
 
 ## Unit Test
 
 ## Deploy : TODO
+- Already deployed to Ali cloud with temporary address
+http://118.190.156.128:8088/spring-boot/
